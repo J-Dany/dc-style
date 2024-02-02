@@ -35,18 +35,18 @@
     --#{variables.$prefix}-dark: #{variables.$dark};
     --#{variables.$prefix}-light: #{variables.$light};
     --#{variables.$prefix}-white: #{variables.$white};
-    --#{variables.$prefix}-body-background: #{variables.$bodyBackground};
-    --#{variables.$prefix}-background-primary: #{variables.$backgroundPrimary};
-    --#{variables.$prefix}-background-secondary: #{variables.$backgroundSecondary};
-    --#{variables.$prefix}-background-success: #{variables.$backgroundSuccess};
-    --#{variables.$prefix}-background-info: #{variables.$backgroundInfo};
-    --#{variables.$prefix}-background-warning: #{variables.$backgroundWarning};
-    --#{variables.$prefix}-background-danger: #{variables.$backgroundDanger};
-    --#{variables.$prefix}-background-black: #{variables.$backgroundBlack};
+    --#{variables.$prefix}-body-background: #{variables.$bodyBackgroundDark};
+    --#{variables.$prefix}-background-primary: #{variables.$backgroundPrimaryDark};
+    --#{variables.$prefix}-background-secondary: #{variables.$backgroundSecondaryDark};
+    --#{variables.$prefix}-background-success: #{variables.$backgroundSuccessDark};
+    --#{variables.$prefix}-background-info: #{variables.$backgroundInfoDark};
+    --#{variables.$prefix}-background-warning: #{variables.$backgroundWarningDark};
+    --#{variables.$prefix}-background-danger: #{variables.$backgroundDangerDark};
+    --#{variables.$prefix}-background-black: #{variables.$backgroundBlackDark};
     --#{variables.$prefix}-background-dark: #{variables.$backgroundDark};
-    --#{variables.$prefix}-background-light: #{variables.$backgroundLight};
-    --#{variables.$prefix}-background-white: #{variables.$backgroundWhite};
-    --#{variables.$prefix}-text-color: #{variables.$textColor};
+    --#{variables.$prefix}-background-light: #{variables.$backgroundLightDark};
+    --#{variables.$prefix}-background-white: #{variables.$backgroundWhiteDark};
+    --#{variables.$prefix}-text-color: #{variables.$textColorDark};
   } @else {
     @error "Invalid mode #{$mode} passed to color-mode mixin.";
   }
