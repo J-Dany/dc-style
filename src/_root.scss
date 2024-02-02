@@ -12,11 +12,11 @@
     }
   }
 } @else {
-  [data-theme="light"] :root {
+  :root, [data-theme="light"] {
     @include color-mode.color-mode("light");
   }
 
-  [data-theme="dark"] :root {
+  [data-theme="dark"] {
     @include color-mode.color-mode("dark");
   }
 }
