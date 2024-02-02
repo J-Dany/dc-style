@@ -1,0 +1,8 @@
+@use "../variables";
+
+@mixin make-container($maxWidth, $gutters) {
+  max-width: $maxWidth;
+  padding: 0px $gutters;
+  margin: 0 auto;
+  @content;
+}

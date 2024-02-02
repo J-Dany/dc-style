@@ -1,0 +1,18 @@
+@use "../node_modules/normalize.css/normalize.css";
+@use "variables";
+@use "root";
+@use "reboot";
+@use "mixins/container";
+@use "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+
+@each $breakpoint, $maxWidth in variables.$breakpoints {
+  @media screen and (min-width: $maxWidth) {
+    .container-#{$breakpoint} {
+      @include container.make-container($maxWidth, variables.$containerGutter);
+    }
+  }
+
+  .container-max-#{$breakpoint} {
+    @include container.make-container($maxWidth, variables.$containerGutter);
+  }
+}

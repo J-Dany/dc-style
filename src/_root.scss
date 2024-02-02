@@ -1,0 +1,22 @@
+@use "variables";
+@use "mixins/color-mode" as color-mode;
+
+@if variables.$usePrefersColorScheme {
+  :root {
+    @media (prefers-color-scheme: light) {
+      @include color-mode.color-mode("light");
+    }
+
+    @media (prefers-color-scheme: dark) {
+      @include color-mode.color-mode("dark");
+    }
+  }
+} @else {
+  [data-theme="light"] :root {
+    @include color-mode.color-mode("light");
+  }
+
+  [data-theme="dark"] :root {
+    @include color-mode.color-mode("dark");
+  }
+}

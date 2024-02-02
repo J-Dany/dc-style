@@ -1,0 +1,65 @@
+$prefix: "dc";
+$usePrefersColorScheme: true;
+
+$primary: #ed1c24;
+$secondary: #810f88;
+$success: #3dbf45;
+$info: #2676ff;
+$warning: #e2c000;
+$danger: #d32157;
+$black: #231f20;
+$dark: #181818;
+$light: #fff6f6;
+$white: #ffffff;
+
+$primaryDark: $primary;
+$secondaryDark: $secondary;
+$successDark: $success;
+$infoDark: $info;
+$warningDark: $warning;
+$dangerDark: $danger;
+$blackDark: $black;
+$darkDark: $dark;
+$lightDark: $light;
+$whiteDark: $white;
+
+$textColor: $black;
+$textColorDark: $light;
+
+$bodyBackground: $light;
+$bodyBackgroundDark: $darkDark;
+
+$backgroundPrimary: $primary;
+$backgroundPrimaryDark: $primaryDark;
+$backgroundSecondary: $secondary;
+$backgroundSecondaryDark: $secondaryDark;
+$backgroundSuccess: $success;
+$backgroundSuccessDark: $successDark;
+$backgroundInfo: $info;
+$backgroundInfoDark: $infoDark;
+$backgroundWarning: $warning;
+$backgroundWarningDark: $warningDark;
+$backgroundDanger: $danger;
+$backgroundDangerDark: $dangerDark;
+$backgroundBlack: $black;
+$backgroundBlackDark: $blackDark;
+$backgroundDark: $dark;
+$backgroundDarkDark: $darkDark;
+$backgroundLight: $light;
+$backgroundLightDark: $lightDark;
+$backgroundWhite: $white;
+$backgroundWhiteDark: $whiteDark;
+
+$breakpoints: (
+  xs: 0,
+  s1: 320px,
+  s2: 375px,
+  s3: 444px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$containerGutter: 16px;
