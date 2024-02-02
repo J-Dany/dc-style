@@ -10,6 +10,6 @@ body {
   margin: 0;
   font-weight: 400;
   -webkit-text-size-adjust: 100%;
-  background-color: --#{variables.$prefix}-body-background;
-  color: --#{variables.$prefix}-text-color;
+  background-color: var(--#{variables.$prefix}-body-background);
+  color: var(--#{variables.$prefix}-text-color);
 }
