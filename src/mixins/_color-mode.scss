@@ -25,16 +25,16 @@
     --#{variables.$prefix}-background-white: #{variables.$backgroundWhite};
     --#{variables.$prefix}-text-color: #{variables.$textColor};
   } @else if $mode == "dark" {
-    --#{variables.$prefix}-primary: #{variables.$primary};
-    --#{variables.$prefix}-secondary: #{variables.$secondary};
-    --#{variables.$prefix}-success: #{variables.$success};
-    --#{variables.$prefix}-info: #{variables.$info};
-    --#{variables.$prefix}-warning: #{variables.$warning};
-    --#{variables.$prefix}-danger: #{variables.$danger};
-    --#{variables.$prefix}-black: #{variables.$black};
-    --#{variables.$prefix}-dark: #{variables.$dark};
-    --#{variables.$prefix}-light: #{variables.$light};
-    --#{variables.$prefix}-white: #{variables.$white};
+    --#{variables.$prefix}-primary: #{variables.$primaryDark};
+    --#{variables.$prefix}-secondary: #{variables.$secondaryDark};
+    --#{variables.$prefix}-success: #{variables.$successDark};
+    --#{variables.$prefix}-info: #{variables.$infoDark};
+    --#{variables.$prefix}-warning: #{variables.$warningDark};
+    --#{variables.$prefix}-danger: #{variables.$dangerDark};
+    --#{variables.$prefix}-black: #{variables.$blackDark};
+    --#{variables.$prefix}-dark: #{variables.$darkDark};
+    --#{variables.$prefix}-light: #{variables.$lightDark};
+    --#{variables.$prefix}-white: #{variables.$whiteDark};
     --#{variables.$prefix}-body-background: #{variables.$bodyBackgroundDark};
     --#{variables.$prefix}-background-primary: #{variables.$backgroundPrimaryDark};
     --#{variables.$prefix}-background-secondary: #{variables.$backgroundSecondaryDark};
