@@ -1,54 +1,54 @@
-$prefix: "dc";
-$usePrefersColorScheme: false;
+$prefix: "dc" !default;
+$usePrefersColorScheme: false !default;
 
-$primary: #ed1c24;
-$secondary: #810f88;
-$success: #3dbf45;
-$info: #2676ff;
-$warning: #e2c000;
-$danger: #d32157;
-$black: #231f20;
-$dark: #181818;
-$light: #fff6f6;
-$white: #ffffff;
+$primary: #ed1c24 !default;
+$secondary: #810f88 !default;
+$success: #3dbf45 !default;
+$info: #2676ff !default;
+$warning: #e2c000 !default;
+$danger: #d32157 !default;
+$black: #231f20 !default;
+$dark: #181818 !default;
+$light: #fff6f6 !default;
+$white: #ffffff !default;
 
-$primaryDark: $primary;
-$secondaryDark: $secondary;
-$successDark: $success;
-$infoDark: $info;
-$warningDark: $warning;
-$dangerDark: $danger;
-$blackDark: $black;
-$darkDark: $dark;
-$lightDark: $light;
-$whiteDark: $white;
+$primaryDark: $primary !default;
+$secondaryDark: $secondary !default;
+$successDark: $success !default;
+$infoDark: $info !default;
+$warningDark: $warning !default;
+$dangerDark: $danger !default;
+$blackDark: $black !default;
+$darkDark: $dark !default;
+$lightDark: $light !default;
+$whiteDark: $white !default;
 
-$textColor: $black;
-$textColorDark: $light;
+$textColor: $black !default;
+$textColorDark: $light !default;
 
-$bodyBackground: $light;
-$bodyBackgroundDark: $darkDark;
+$bodyBackground: $light !default;
+$bodyBackgroundDark: $darkDark !default;
 
-$backgroundPrimary: $primary;
-$backgroundPrimaryDark: $primaryDark;
-$backgroundSecondary: $secondary;
-$backgroundSecondaryDark: $secondaryDark;
-$backgroundSuccess: $success;
-$backgroundSuccessDark: $successDark;
-$backgroundInfo: $info;
-$backgroundInfoDark: $infoDark;
-$backgroundWarning: $warning;
-$backgroundWarningDark: $warningDark;
-$backgroundDanger: $danger;
-$backgroundDangerDark: $dangerDark;
-$backgroundBlack: $black;
-$backgroundBlackDark: $blackDark;
-$backgroundDark: $dark;
-$backgroundDarkDark: $darkDark;
-$backgroundLight: $light;
-$backgroundLightDark: $lightDark;
-$backgroundWhite: $white;
-$backgroundWhiteDark: $whiteDark;
+$backgroundPrimary: $primary !default;
+$backgroundPrimaryDark: $primaryDark !default;
+$backgroundSecondary: $secondary !default;
+$backgroundSecondaryDark: $secondaryDark !default;
+$backgroundSuccess: $success !default;
+$backgroundSuccessDark: $successDark !default;
+$backgroundInfo: $info !default;
+$backgroundInfoDark: $infoDark !default;
+$backgroundWarning: $warning !default;
+$backgroundWarningDark: $warningDark !default;
+$backgroundDanger: $danger !default;
+$backgroundDangerDark: $dangerDark !default;
+$backgroundBlack: $black !default;
+$backgroundBlackDark: $blackDark !default;
+$backgroundDark: $dark !default;
+$backgroundDarkDark: $darkDark !default;
+$backgroundLight: $light !default;
+$backgroundLightDark: $lightDark !default;
+$backgroundWhite: $white !default;
+$backgroundWhiteDark: $whiteDark !default;
 
 $breakpoints: (
   xs: 0,
@@ -60,6 +60,6 @@ $breakpoints: (
   lg: 992px,
   xl: 1200px,
   xxl: 1400px
-);
+) !default;
 
-$containerGutter: 16px;
+$containerGutter: 16px !default;
