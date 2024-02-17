@@ -2,14 +2,22 @@ $prefix: "dc" !default;
 $usePrefersColorScheme: false !default;
 
 $primary: #ed1c24 !default;
+$primarySubtle: #fff6f6 !default;
 $secondary: #009246 !default;
-$success: #3dbf45 !default;
+$secondarySubtle: #80c9a2 !default;
+$success: #28a745 !default;
+$successSubtle: #c9e9d0 !default;
 $info: #2676ff !default;
-$warning: #e2c000 !default;
-$danger: #d32157 !default;
+$infoSubtle: #c9ddff !default;
+$warning: #ffd700 !default;
+$warningSubtle: #fff5bf !default;
+$danger: #f35736 !default;
+$dangerSubtle: #fcd5cd !default;
 $black: #231f20 !default;
+$blackSubtle: #bdbcbc !default;
 $dark: #181818 !default;
-$light: #fff6f6 !default;
+$light: #ededed !default;
+$lightSubtle: #fafafa !default;
 $white: #ffffff !default;
 
 $primaryDark: $primary !default;
@@ -26,8 +34,10 @@ $whiteDark: $white !default;
 $textColor: $black !default;
 $textColorDark: $light !default;
 
-$bodyBackground: $light !default;
+$bodyBackground: $white !default;
 $bodyBackgroundDark: $darkDark !default;
+$bodyBgSecondary: #e9e9e9 !default;
+$bodyBgTertiary: #f4f4f4 !default;
 
 $backgroundPrimary: $primary !default;
 $backgroundPrimaryDark: $primaryDark !default;
@@ -59,7 +69,49 @@ $breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px
+  xxl: 1400px,
 ) !default;
 
 $containerGutter: 16px !default;
+
+$fontSizeBase: 1rem !default;
+$fontWeightLighter: lighter !default;
+$fontWeightLight: 300 !default;
+$fontWeightNormal: 400 !default;
+$fontWeightMedium: 500 !default;
+$fontWeightSemibold: 600 !default;
+$fontWeightBold: 700 !default;
+$fontWeightBolder: bolder !default;
+
+$fontSizeBase: 1rem !default;
+$h1FontSize: $fontSizeBase * 2.5 !default;
+$h2FontSize: $fontSizeBase * 2 !default;
+$h3FontSize: $fontSizeBase * 1.75 !default;
+$h4FontSize: $fontSizeBase * 1.5 !default;
+$h5FontSize: $fontSizeBase * 1.25 !default;
+$h6FontSize: $fontSizeBase !default;
+
+$fontSizes: (
+  1: $h1FontSize,
+  2: $h2FontSize,
+  3: $h3FontSize,
+  4: $h4FontSize,
+  5: $h5FontSize,
+  6: $h6FontSize,
+) !default;
+
+$positionValues: (
+  0: 0,
+  50: 50%,
+  100: 100%,
+) !default;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) !default;
